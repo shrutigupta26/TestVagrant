@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Vagrant]" parallel="tests">
+  <test name="IMDB Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TestClasses.IMDBTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="Test03_verifyTheReleaseDate"/>
+        </methods>
+      </class> <!-- com.TestClasses.IMDBTest -->
+    </classes>
+  </test> <!-- IMDB Test(failed) -->
+</suite> <!-- Failed suite [Test Vagrant] -->

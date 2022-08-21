@@ -1,0 +1,7 @@
+url_IMDB = https://www.imdb.com/
+url_WIKI = https://en.wikipedia.org/wiki/Main_Page
+
+browser = chrome
+
+seleniumserver = local
+seleniumserverhost=http://172.18.3.45:4444/wd/hub

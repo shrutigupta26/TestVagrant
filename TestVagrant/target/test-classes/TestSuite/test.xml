@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Test Vagrant" parallel="tests" thread-count="2">
+
+	<test name="IMDB Test" preserve-order="true"
+		enabled="true">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.TestClasses.IMDBTest"></class>
+		</classes>
+	</test>
+	
+	<test name="WIKI Test" preserve-order="true"
+		enabled="true">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.TestClasses.WIKITest"></class>
+		</classes>
+	</test>
+
+</suite>

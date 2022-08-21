@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Vagrant">
+              <span class="suite-name border-failed">Test Vagrant</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Vagrant">
+                    <span>C:\Users\Shruti.gupta\Downloads\TestVagrant\src\test\resources\TestSuite\test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Vagrant">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Vagrant">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Vagrant">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Vagrant">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Vagrant">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Vagrant">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Vagrant" class="hide-methods failed suite-Test_Vagrant"> (hide)</a> <!-- hide-methods failed suite-Test_Vagrant -->
+                      <a href="#" panel-name="suite-Test_Vagrant" class="show-methods failed suite-Test_Vagrant"> (show)</a> <!-- show-methods failed suite-Test_Vagrant -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Vagrant">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Vagrant" title="com.TestClasses.IMDBTest" hash-for-method="Test03_verifyTheReleaseDate">Test03_verifyTheReleaseDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Vagrant -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Vagrant" class="hide-methods passed suite-Test_Vagrant"> (hide)</a> <!-- hide-methods passed suite-Test_Vagrant -->
+                      <a href="#" panel-name="suite-Test_Vagrant" class="show-methods passed suite-Test_Vagrant"> (show)</a> <!-- show-methods passed suite-Test_Vagrant -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Vagrant">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Vagrant" title="com.TestClasses.WIKITest" hash-for-method="Test01_loginPageTitleTest">Test01_loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Vagrant" title="com.TestClasses.IMDBTest" hash-for-method="Test01_loginPageTitleTest">Test01_loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Vagrant" title="com.TestClasses.WIKITest" hash-for-method="Test02_verifyTheCountryName">Test02_verifyTheCountryName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Vagrant" title="com.TestClasses.IMDBTest" hash-for-method="Test02_verifyTheCountryName">Test02_verifyTheCountryName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Vagrant" title="com.TestClasses.WIKITest" hash-for-method="Test03_verifyTheReleaseDate">Test03_verifyTheReleaseDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Vagrant -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Vagrant" class="panel Test_Vagrant">
+          <div class="suite-Test_Vagrant-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TestClasses.IMDBTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test03_verifyTheReleaseDate">
+                  </a> <!-- Test03_verifyTheReleaseDate -->
+                  <span class="method-name">Test03_verifyTheReleaseDate</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;li role=&quot;presentation&quot; class=&quot;ipc-metadata-list__item ipc-metadata-list-item--link&quot; data-testid=&quot;title-details-releasedate&quot;&gt;...&lt;/li&gt; is not clickable at point (425, 220). Other element would receive the click: &lt;iframe name=&quot;{&amp;quot;slot&amp;quot;:&amp;quot;inline20&amp;quot;,&amp;quot;slotName&amp;quot;:&amp;quot;inline20&amp;quot;,&amp;quot;arid&amp;quot;:&amp;quot;inline20&amp;quot;,&amp;quot;htmlContentEncoded&amp;quot;:&amp;quot;PHN0eWxlPmJvZHl7YmFja2dyb3VuZDp0cmFuc3BhcmVudDt9PC9zdHlsZT48c2NyaXB0IHR5cGU9ImRhdGEtZG91YmxlY2xpY2siIHNyYz0iaHR0cHM6Ly9pYS5tZWRpYS1pbWRiLmNvbS9pbWFnZXMvRy8wMS9tb2JpbGUvYmxhbmtfcGl4ZWwuX1YxMzc4NzUwNzZfLmdpZiI+PC9zY3JpcHQ+IDxzY3JpcHQ+ZG9jdW1lbnQuZGVmYXVsdEFkID0ge2g6MjUwLHc6OTcwfTsgZG9jdW1lbnQuYWQgPSBkb2N1bWVudC5kZWZhdWx0QWQ7IGRvY3VtZW50LmFkU2xvdENvbmZpZyA9IHthbGxvd0ZhZGVJbjogdHJ1ZSwgcmVzaXplSWZyYW1lOiB0cnVlfTs8L3NjcmlwdD4KIDwhZG9jdHlwZSBodG1sPgo8aHRtbCBsYW5nPSJlbiI+CjxoZWFkPgogPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogPHRpdGxlPjwvdGl0bGU+CjwvaGVhZD4KPGJvZHkgc3R5bGU9Im1hcmdpbjowO3Bvc2l0aW9uOmFic29sdXRlO3RvcDowO2xlZnQ6MDtib3R0b206MDtyaWdodDowOyI+CjxzY3JpcHQ+d2luZG93LnQwPStuZXcgRGF0ZSgpOzwvc2NyaXB0Pgo8c2NyaXB0PgogCjwvc2NyaXB0PgoKPGRpdiBpZD0iYWQiIHN0eWxlPSJ3aWR0aDoxMDAlO2hlaWdodDoxMDAlOyI+PGRpdiBjbGFzcz0iY3JlYXRpdmUtY29udGFpbmVyIiBzdHlsZT0icG9zaXRpb246YWJzb2x1dGU7dG9wOjA7cmlnaHQ6MDtib3R0b206MDtsZWZ0OjA7b3ZlcmZsb3c6aGlkZGVuIiBhcmlhLWxhYmVsPSJTcG9uc29yZWQgQWQiIGRhdGEtcmVhY3Ryb290PSIiPjxpbWcgY2xhc3M9ImFkLWJhY2tncm91bmQtaW1hZ2UgbXJjLWJ0ci1jcmVhdGl2ZSIgc3JjPSJodHRwczovL20ubWVkaWEtYW1hem9uLmNvbS9pbWFnZXMvUy9hbC1ldS03MjZmNGQyNi03ZmRiLzAyNGQ4NDhjLTIzZTUtNDg2ZC05NGZhLTJiNzZiNTNkODVhNS5qcGciIHN0eWxlPSJtYXgtd2lkdGg6bm9uZTttYXgtaGVpZ2h0Om5vbmU7d2lkdGg6MTAwJTtoZWlnaHQ6YXV0bzttYXJnaW4tbGVmdDo1MCU7LXdlYmtpdC10cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKTstbW96LXRyYW5zZm9ybTp0cmFuc2xhdGVYKC01MCUpOy1tcy10cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKTstby10cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKTt0cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKSIvPjxhIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt0b3A6MDtyaWdodDowO2JvdHRvbTowO2xlZnQ6MDtjdXJzb3I6cG9pbnRlcjtiYWNrZ3JvdW5kOnRyYW5zcGFyZW50IHVybChkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFFQUFBQUJDQVFBQUFDMUhBd0NBQUFBQzBsRVFWUjQybU5rWUFBQUFBWUFBakNCMEM4QUFBQUFTVVZPUks1Q1lJST0pIHJlcGVhdCAwIDAiIGNsYXNzPSJjbGlja3Rocm91Z2giIGhyZWY9Imh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tL3N0b3JlZnJvbnQvcmVmXz1kdm1fcHRtX2FtYV9pbl9hal9jX2FtY19jcF9pbWRiX2FsbF9sb2Q/Y29udGVudFR5cGU9c3Vic2NyaXB0aW9uJmFtcDtjb250ZW50SWQ9YW1jcGx1c2luJmFtcDtiZW5lZml0SWQ9YW1jcGx1c2luIiB0YXJnZXQ9Il9ibGFuayI+PC9hPjwvZGl2PjwvZGl2Pgo8c2NyaXB0Pgogd2luZG93LiRhZCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhZCcpOwo8L3NjcmlwdD4KCjxzY3JpcHQgY3Jvc3NvcmlnaW49ImFub255bW91cyIgc3JjPSJodHRwczovL20ubWVkaWEtYW1hem9uLmNvbS9pbWFnZXMvSS80MW9XeEV0OXctTC5qcyI+PC9zY3JpcHQ+Cgo8c2NyaXB0Pgogd2luZG93LmltYWdlQ3JlYXRpdmUgPSBDcmVhdGl2ZS5kZWZhdWx0KCRhZCwgeyJjdGEiOnsidHlwZSI6InVybCIsInVybCI6Imh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tL3N0b3JlZnJvbnQvcmVmXz1kdm1fcHRtX2FtYV9pbl9hal9jX2FtY19jcF9pbWRiX2FsbF9sb2Q/Y29udGVudFR5cGU9c3Vic2NyaXB0aW9uJmNvbnRlbnRJZD1hbWNwbHVzaW4mYmVuZWZpdElkPWFtY3BsdXNpbiIsImxpbmtJbiI6ZmFsc2V9LCJiYWNrZ3JvdW5kSW1hZ2UiOnsidXJsIjoiaHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL1MvYWwtZXUtNzI2ZjRkMjYtN2ZkYi8wMjRkODQ4Yy0yM2U1LTQ4NmQtOTRmYS0yYjc2YjUzZDg1YTUuanBnIiwibG93UmVzVXJsIjpudWxsfSwiYmFja2dyb3VuZENvbG9yIjpudWxsLCJhZENob2ljZXNQb3NpdGlvbiI6InRvcHJpZ2h0IiwiaW1wcmVzc2lvblVybHMiOltdLCJhZGRpdGlvbmFsSHRtbCI6IiIsIndpZHRoIjo5NzAsImhlaWdodCI6MjUwLCJpc0xvd1Jlc0Rpc3BsYXkiOmZhbHNlLCJjcmVhdGl2ZUltYWdlRGF0YSI6bnVsbCwibG9jYWxlIjoiSU4iLCJyZWdpb24iOiJldSIsIm1lZGlhQ2VudHJhbFBhdGgiOiJodHRwczovL2ltYWdlcy1ldS5zc2wtaW1hZ2VzLWFtYXpvbi5jb20vaW1hZ2VzL0cvMzEiLCJwcml2YWN5VXJsIjoiaHR0cHM6Ly93d3cuYW1hem9uLmluL2FkcHJlZnMiLCJkZXZpY2VDb250ZXh0Ijp7InVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDQuMC41MTEyLjgxIFNhZmFyaS81MzcuMzYifSwiaXNQcmV2aWV3IjpmYWxzZSwiaXNNb2JpbGUiOmZhbHNlLCJpc0JsYWNramFjayI6ZmFsc2UsImlzT2Zmc2l0ZSI6ZmFsc2UsInVzZTFwUmVuZGVyaW5nIjpmYWxzZSwiYXBwZW5kUXVlcnlQYXJhbXMiOiIiLCJpc0V4dGVybmFsTGluayI6ZmFsc2UsImFkTGluayI6Imh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tL3N0b3JlZnJvbnQvcmVmXz1kdm1fcHRtX2FtYV9pbl9hal9jX2FtY19jcF9pbWRiX2FsbF9sb2Q/Y29udGVudFR5cGU9c3Vic2NyaXB0aW9uJmNvbnRlbnRJZD1hbWNwbHVzaW4mYmVuZWZpdElkPWFtY3BsdXNpbiIsImNhc2NhZGluZ0ludGVudCI6bnVsbCwiY2xpY2tUcmFja2VyVXJscyI6WyJodHRwczovL2FheC1ldS5hbWF6b24tYWRzeXN0ZW0uY29tL3gvYy9SSHFrSEZDTW1XUEF5TWNaQVc0YUFXTUFBQUdDdjI5OHJBTUFBQURLQVFCT0wwRWdJQ0FnSUNBZ0lDQWdJQ0JPTDBFZ0lDQWdJQ0FnSUNBZ0lDQ3N0QXRwLyIsbnVsbF0sImlzQW1hem9uQ2xpY2tVcmwiOmZhbHNlLCJpc1ByaW1lTm93Q2xpY2tVcmwiOmZhbHNlLCJpczFwVXJsU2FmZSI6dHJ1ZX0pOwo8L3NjcmlwdD4KCgo8L2JvZHk+CjwvaHRtbD4KPHNjcmlwdCBzcmM9Imh0dHBzOi8vYy5hbWF6b24tYWRzeXN0ZW0uY29tL2Jhby1jc20vaW1kYi13ZWItZGlzcGxheS9jc212NS5qcyI+PC9zY3JpcHQ+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4KIHZhciBhbXpuY3NtID0gYW16bmNzbSB8fCB7fTsgYW16bmNzbS5pbnN0clVSTCA9ICJodHRwczovL2FheC1ldS5hbWF6b24tYWRzeXN0ZW0uY29tL3gvcHgvSkhxa0hGQ01tV1BBeU1jWkFXNGFBV01BQUFHQ3YyOTh4QU1BQUFES0FRQk9MMEVnSUNBZ0lDQWdJQ0FnSUNCT0wwRWdJQ0FnSUNBZ0lDQWdJQ0NzdEF0cC8iOwogaWYodHlwZW9mIGFtem5jc20ucm1SID09PSAiZnVuY3Rpb24iKSB7CiBhbXpuY3NtLnJtUihhbXpuY3NtLmluc3RyVVJMLCB3aW5kb3csIFtdKTsKIH0KPC9zY3JpcHQ+CgogPGRpdiBpZD0iaW5saW5lMjBfd2ViYnVnIiBzdHlsZT0iZGlzcGxheTpub25lOyI+CgoKIDxpbWcgc3JjPSJodHRwczovL2FheC1ldS5hbWF6b24tYWRzeXN0ZW0uY29tL2UvbG9pL2ltcD9iPUpIcWtIRkNNbVdQQXlNY1pBVzRhQVdNQUFBR0N2Mjk4eEFNQUFBREtBUUJPTDBFZ0lDQWdJQ0FnSUNBZ0lDQk9MMEVnSUNBZ0lDQWdJQ0FnSUNDc3RBdHAiIGJvcmRlcj0iMCIgaGVpZ2h0PSIxIiB3aWR0aD0iMSIgYWx0PSIiLz4KCiA8L2Rpdj4KCjxzY3JpcHQgZGVmZXI+c2V0VGltZW91dCggZnVuY3Rpb24oKXtTRkNsaWVudC5nZXREZWJ1Z0luZm8oe2tleTogInVwZGF0ZUFkRGV0YWlscyJ9KTsgfSwwKTs8L3NjcmlwdD48c2NyaXB0IGRlZmVyPnNldFRpbWVvdXQoZnVuY3Rpb24oKXtTRkNsaWVudC5jdXN0b21NZXNzYWdlKCJzZW5kTWV0cmljcyIsSlNPTi5zdHJpbmdpZnkoeyJzbG90IjogImlubGluZTIwIiwgImV2ZW50IjogImZpcmVsb2FkIn0pKTt9LDApOzwvc2NyaXB0Pg==&amp;quot;,&amp;quot;serverSideFetchAd&amp;quot;:&amp;quot;true&amp;quot;,&amp;quot;loadAfter&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;allowedSizes&amp;quot;:[{&amp;quot;width&amp;quot;:&amp;quot;970px&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;250px&amp;quot;}],&amp;quot;allowedDomains&amp;quot;:[&amp;quot;ia.media-imdb.com&amp;quot;,&amp;quot;d3l3lkinz3f56t.cloudfront.net&amp;quot;,&amp;quot;g-ecx.images-amazon.com&amp;quot;,&amp;quot;z-ecx.images-amazon.com&amp;quot;,&amp;quot;images-na.ssl-images-amazon.com&amp;quot;,&amp;quot;g-ec4.images-amazon.com&amp;quot;,&amp;quot;images-cn.ssl-images-amazon.com&amp;quot;],&amp;quot;iframeClass&amp;quot;:&amp;quot;yesScript iframe_position_relative&amp;quot;,&amp;quot;iframeExtraStyle&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;size&amp;quot;:{&amp;quot;width&amp;quot;:&amp;quot;970px&amp;quot;,&amp;quot;height&amp;quot;:&amp;quot;250px&amp;quot;},&amp;quot;viewabilityStandards&amp;quot;:[],&amp;quot;aaxInstrPixelUrl&amp;quot;:&amp;quot;https://aax-eu.amazon-adsystem.com/x/px/RHqkHFCMmWPAyMcZAW4aAWMAAAGCv298rAMAAADKAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICCstAtp/&amp;quot;,&amp;quot;allowlistedCustomMessageEvents&amp;quot;:[&amp;quot;openPsAdPopover&amp;quot;,&amp;quot;openATCModal&amp;quot;,&amp;quot;setPartner&amp;quot;,&amp;quot;sendMetrics&amp;quot;,&amp;quot;wrap&amp;quot;],&amp;quot;allowlistedQueryParamKeys&amp;quot;:[],&amp;quot;adCreativeMetaData&amp;quot;:{&amp;quot;adCreativeTemplateName&amp;quot;:&amp;quot;IMDb&amp;quot;},&amp;quot;hostDomain&amp;quot;:&amp;quot;https://www.imdb.com&amp;quot;,&amp;quot;queryParams&amp;quot;:{},&amp;quot;adStartTime&amp;quot;:0,&amp;quot;safeFrameSrc&amp;quot;:&amp;quot;https://images-na.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.b9438f1.html&amp;quot;}&quot; id=&quot;ape_inline20_iframe&quot; src=&quot;https://images-na.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.b9438f1.html&quot; height=&quot;250px&quot; width=&quot;970px&quot; class=&quot;yesScript iframe_position_relative ad_fadein&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; scrolling=&quot;no&quot; allowtransparency=&quot;true&quot; data-arid=&quot;inline20&quot; sandbox=&quot;allow-scripts allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation-by-user-activation&quot; style=&quot;height: 250px; width: 970px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=104.0.5112.81)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;QT-INNO-LT0822&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SHRUTI~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6dfcdd1cc7c071f453d0046d9be690d7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.Pages.IMDBPage.verifyTheReleaseDate(IMDBPage.java:74)
+	at com.TestClasses.IMDBTest.Test03_verifyTheReleaseDate(IMDBTest.java:45)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Vagrant-class-failed -->
+          <div class="suite-Test_Vagrant-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestClasses.WIKITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test01_loginPageTitleTest">
+                  </a> <!-- Test01_loginPageTitleTest -->
+                  <span class="method-name">Test01_loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test02_verifyTheCountryName">
+                  </a> <!-- Test02_verifyTheCountryName -->
+                  <span class="method-name">Test02_verifyTheCountryName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test03_verifyTheReleaseDate">
+                  </a> <!-- Test03_verifyTheReleaseDate -->
+                  <span class="method-name">Test03_verifyTheReleaseDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Vagrant-class-passed -->
+          <div class="suite-Test_Vagrant-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestClasses.IMDBTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test01_loginPageTitleTest">
+                  </a> <!-- Test01_loginPageTitleTest -->
+                  <span class="method-name">Test01_loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test02_verifyTheCountryName">
+                  </a> <!-- Test02_verifyTheCountryName -->
+                  <span class="method-name">Test02_verifyTheCountryName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Vagrant-class-passed -->
+        </div> <!-- panel Test_Vagrant -->
+        <div panel-name="test-xml-Test_Vagrant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Shruti.gupta\Downloads\TestVagrant\src\test\resources\TestSuite\test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test Vagrant&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;IMDB Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TestClasses.IMDBTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IMDB Test --&gt;
+  &lt;test name=&quot;WIKI Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TestClasses.WIKITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WIKI Test --&gt;
+&lt;/suite&gt; &lt;!-- Test Vagrant --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Vagrant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Vagrant</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">IMDB Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WIKI Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Vagrant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Vagrant</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Vagrant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Vagrant</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Vagrant');
+function tableData_Test_Vagrant() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test02_verifyTheCountryName')
+data.setCell(0, 2, 'com.TestClasses.IMDBTest')
+data.setCell(0, 3, 7334);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test01_loginPageTitleTest')
+data.setCell(1, 2, 'com.TestClasses.IMDBTest')
+data.setCell(1, 3, 4569);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test02_verifyTheCountryName')
+data.setCell(2, 2, 'com.TestClasses.WIKITest')
+data.setCell(2, 3, 2228);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test03_verifyTheReleaseDate')
+data.setCell(3, 2, 'com.TestClasses.IMDBTest')
+data.setCell(3, 3, 1247);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test01_loginPageTitleTest')
+data.setCell(4, 2, 'com.TestClasses.WIKITest')
+data.setCell(4, 3, 1131);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test03_verifyTheReleaseDate')
+data.setCell(5, 2, 'com.TestClasses.WIKITest')
+data.setCell(5, 3, 105);
+window.suiteTableData['Test_Vagrant']= { tableData: data, tableDiv: 'times-div-Test_Vagrant'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-Test_Vagrant">
+              </div> <!-- times-div-Test_Vagrant -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Vagrant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Vagrant</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test02_verifyTheCountryName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[ASSERT PASSED]: Country Name is India</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test03_verifyTheReleaseDate</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[ASSERT PASSED]: Release Date is 17 December 2021</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test02_verifyTheCountryName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[ASSERT PASSED]: Country Name is India</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Vagrant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Vagrant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestClasses.WIKITest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestClasses.IMDBTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test01_loginPageTitleTest</span>
+                <span class="method-start">4651 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestClasses.WIKITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test01_loginPageTitleTest</span>
+                <span class="method-start">4676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test02_verifyTheCountryName</span>
+                <span class="method-start">5809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test03_verifyTheReleaseDate</span>
+                <span class="method-start">8039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8145 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestClasses.IMDBTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test02_verifyTheCountryName</span>
+                <span class="method-start">9223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test03_verifyTheReleaseDate</span>
+                <span class="method-start">16558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17811 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

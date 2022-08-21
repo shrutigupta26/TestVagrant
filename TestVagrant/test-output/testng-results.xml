@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[[ASSERT PASSED]: Country Name is India]]>
+    </line>
+    <line>
+      <![CDATA[[ASSERT PASSED]: Release Date is 17 December 2021]]>
+    </line>
+    <line>
+      <![CDATA[[ASSERT PASSED]: Country Name is India]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Vagrant" duration-ms="18636" started-at="2022-08-21T08:05:15Z" finished-at="2022-08-21T08:05:34Z">
+    <groups>
+    </groups>
+    <test name="WIKI Test" duration-ms="9041" started-at="2022-08-21T08:05:15Z" finished-at="2022-08-21T08:05:24Z">
+      <class name="com.TestClasses.WIKITest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.TestClasses.WIKITest@3e6fa38a]" name="setUp" is-config="true" duration-ms="4675" started-at="2022-08-21T13:35:15Z" finished-at="2022-08-21T13:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test01_loginPageTitleTest()[pri:0, instance:com.TestClasses.WIKITest@3e6fa38a]" name="Test01_loginPageTitleTest" duration-ms="1131" started-at="2022-08-21T13:35:20Z" finished-at="2022-08-21T13:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_loginPageTitleTest -->
+        <test-method status="PASS" signature="Test02_verifyTheCountryName()[pri:0, instance:com.TestClasses.WIKITest@3e6fa38a]" name="Test02_verifyTheCountryName" duration-ms="2228" started-at="2022-08-21T13:35:21Z" finished-at="2022-08-21T13:35:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[ASSERT PASSED]: Country Name is India]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test02_verifyTheCountryName -->
+        <test-method status="PASS" signature="Test03_verifyTheReleaseDate()[pri:0, instance:com.TestClasses.WIKITest@3e6fa38a]" name="Test03_verifyTheReleaseDate" duration-ms="105" started-at="2022-08-21T13:35:23Z" finished-at="2022-08-21T13:35:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[ASSERT PASSED]: Release Date is 17 December 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test03_verifyTheReleaseDate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestClasses.WIKITest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="884" started-at="2022-08-21T13:35:23Z" finished-at="2022-08-21T13:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestClasses.WIKITest -->
+    </test> <!-- WIKI Test -->
+    <test name="IMDB Test" duration-ms="18636" started-at="2022-08-21T08:05:15Z" finished-at="2022-08-21T08:05:34Z">
+      <class name="com.TestClasses.IMDBTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.TestClasses.IMDBTest@6767c1fc]" name="setUp" is-config="true" duration-ms="4625" started-at="2022-08-21T13:35:15Z" finished-at="2022-08-21T13:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test01_loginPageTitleTest()[pri:0, instance:com.TestClasses.IMDBTest@6767c1fc]" name="Test01_loginPageTitleTest" duration-ms="4569" started-at="2022-08-21T13:35:20Z" finished-at="2022-08-21T13:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_loginPageTitleTest -->
+        <test-method status="PASS" signature="Test02_verifyTheCountryName()[pri:0, instance:com.TestClasses.IMDBTest@6767c1fc]" name="Test02_verifyTheCountryName" duration-ms="7334" started-at="2022-08-21T13:35:24Z" finished-at="2022-08-21T13:35:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[ASSERT PASSED]: Country Name is India]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test02_verifyTheCountryName -->
+        <test-method status="FAIL" signature="Test03_verifyTheReleaseDate()[pri:0, instance:com.TestClasses.IMDBTest@6767c1fc]" name="Test03_verifyTheReleaseDate" duration-ms="1247" started-at="2022-08-21T13:35:32Z" finished-at="2022-08-21T13:35:33Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <li role="presentation" class="ipc-metadata-list__item ipc-metadata-list-item--link" data-testid="title-details-releasedate">...</li> is not clickable at point (425, 220). Other element would receive the click: <iframe name="{&quot;slot&quot;:&quot;inline20&quot;,&quot;slotName&quot;:&quot;inline20&quot;,&quot;arid&quot;:&quot;inline20&quot;,&quot;htmlContentEncoded&quot;:&quot;PHN0eWxlPmJvZHl7YmFja2dyb3VuZDp0cmFuc3BhcmVudDt9PC9zdHlsZT48c2NyaXB0IHR5cGU9ImRhdGEtZG91YmxlY2xpY2siIHNyYz0iaHR0cHM6Ly9pYS5tZWRpYS1pbWRiLmNvbS9pbWFnZXMvRy8wMS9tb2JpbGUvYmxhbmtfcGl4ZWwuX1YxMzc4NzUwNzZfLmdpZiI+PC9zY3JpcHQ+IDxzY3JpcHQ+ZG9jdW1lbnQuZGVmYXVsdEFkID0ge2g6MjUwLHc6OTcwfTsgZG9jdW1lbnQuYWQgPSBkb2N1bWVudC5kZWZhdWx0QWQ7IGRvY3VtZW50LmFkU2xvdENvbmZpZyA9IHthbGxvd0ZhZGVJbjogdHJ1ZSwgcmVzaXplSWZyYW1lOiB0cnVlfTs8L3NjcmlwdD4KIDwhZG9jdHlwZSBodG1sPgo8aHRtbCBsYW5nPSJlbiI+CjxoZWFkPgogPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogPHRpdGxlPjwvdGl0bGU+CjwvaGVhZD4KPGJvZHkgc3R5bGU9Im1hcmdpbjowO3Bvc2l0aW9uOmFic29sdXRlO3RvcDowO2xlZnQ6MDtib3R0b206MDtyaWdodDowOyI+CjxzY3JpcHQ+d2luZG93LnQwPStuZXcgRGF0ZSgpOzwvc2NyaXB0Pgo8c2NyaXB0PgogCjwvc2NyaXB0PgoKPGRpdiBpZD0iYWQiIHN0eWxlPSJ3aWR0aDoxMDAlO2hlaWdodDoxMDAlOyI+PGRpdiBjbGFzcz0iY3JlYXRpdmUtY29udGFpbmVyIiBzdHlsZT0icG9zaXRpb246YWJzb2x1dGU7dG9wOjA7cmlnaHQ6MDtib3R0b206MDtsZWZ0OjA7b3ZlcmZsb3c6aGlkZGVuIiBhcmlhLWxhYmVsPSJTcG9uc29yZWQgQWQiIGRhdGEtcmVhY3Ryb290PSIiPjxpbWcgY2xhc3M9ImFkLWJhY2tncm91bmQtaW1hZ2UgbXJjLWJ0ci1jcmVhdGl2ZSIgc3JjPSJodHRwczovL20ubWVkaWEtYW1hem9uLmNvbS9pbWFnZXMvUy9hbC1ldS03MjZmNGQyNi03ZmRiLzAyNGQ4NDhjLTIzZTUtNDg2ZC05NGZhLTJiNzZiNTNkODVhNS5qcGciIHN0eWxlPSJtYXgtd2lkdGg6bm9uZTttYXgtaGVpZ2h0Om5vbmU7d2lkdGg6MTAwJTtoZWlnaHQ6YXV0bzttYXJnaW4tbGVmdDo1MCU7LXdlYmtpdC10cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKTstbW96LXRyYW5zZm9ybTp0cmFuc2xhdGVYKC01MCUpOy1tcy10cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKTstby10cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKTt0cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKSIvPjxhIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt0b3A6MDtyaWdodDowO2JvdHRvbTowO2xlZnQ6MDtjdXJzb3I6cG9pbnRlcjtiYWNrZ3JvdW5kOnRyYW5zcGFyZW50IHVybChkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFFQUFBQUJDQVFBQUFDMUhBd0NBQUFBQzBsRVFWUjQybU5rWUFBQUFBWUFBakNCMEM4QUFBQUFTVVZPUks1Q1lJST0pIHJlcGVhdCAwIDAiIGNsYXNzPSJjbGlja3Rocm91Z2giIGhyZWY9Imh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tL3N0b3JlZnJvbnQvcmVmXz1kdm1fcHRtX2FtYV9pbl9hal9jX2FtY19jcF9pbWRiX2FsbF9sb2Q/Y29udGVudFR5cGU9c3Vic2NyaXB0aW9uJmFtcDtjb250ZW50SWQ9YW1jcGx1c2luJmFtcDtiZW5lZml0SWQ9YW1jcGx1c2luIiB0YXJnZXQ9Il9ibGFuayI+PC9hPjwvZGl2PjwvZGl2Pgo8c2NyaXB0Pgogd2luZG93LiRhZCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhZCcpOwo8L3NjcmlwdD4KCjxzY3JpcHQgY3Jvc3NvcmlnaW49ImFub255bW91cyIgc3JjPSJodHRwczovL20ubWVkaWEtYW1hem9uLmNvbS9pbWFnZXMvSS80MW9XeEV0OXctTC5qcyI+PC9zY3JpcHQ+Cgo8c2NyaXB0Pgogd2luZG93LmltYWdlQ3JlYXRpdmUgPSBDcmVhdGl2ZS5kZWZhdWx0KCRhZCwgeyJjdGEiOnsidHlwZSI6InVybCIsInVybCI6Imh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tL3N0b3JlZnJvbnQvcmVmXz1kdm1fcHRtX2FtYV9pbl9hal9jX2FtY19jcF9pbWRiX2FsbF9sb2Q/Y29udGVudFR5cGU9c3Vic2NyaXB0aW9uJmNvbnRlbnRJZD1hbWNwbHVzaW4mYmVuZWZpdElkPWFtY3BsdXNpbiIsImxpbmtJbiI6ZmFsc2V9LCJiYWNrZ3JvdW5kSW1hZ2UiOnsidXJsIjoiaHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL1MvYWwtZXUtNzI2ZjRkMjYtN2ZkYi8wMjRkODQ4Yy0yM2U1LTQ4NmQtOTRmYS0yYjc2YjUzZDg1YTUuanBnIiwibG93UmVzVXJsIjpudWxsfSwiYmFja2dyb3VuZENvbG9yIjpudWxsLCJhZENob2ljZXNQb3NpdGlvbiI6InRvcHJpZ2h0IiwiaW1wcmVzc2lvblVybHMiOltdLCJhZGRpdGlvbmFsSHRtbCI6IiIsIndpZHRoIjo5NzAsImhlaWdodCI6MjUwLCJpc0xvd1Jlc0Rpc3BsYXkiOmZhbHNlLCJjcmVhdGl2ZUltYWdlRGF0YSI6bnVsbCwibG9jYWxlIjoiSU4iLCJyZWdpb24iOiJldSIsIm1lZGlhQ2VudHJhbFBhdGgiOiJodHRwczovL2ltYWdlcy1ldS5zc2wtaW1hZ2VzLWFtYXpvbi5jb20vaW1hZ2VzL0cvMzEiLCJwcml2YWN5VXJsIjoiaHR0cHM6Ly93d3cuYW1hem9uLmluL2FkcHJlZnMiLCJkZXZpY2VDb250ZXh0Ijp7InVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDQuMC41MTEyLjgxIFNhZmFyaS81MzcuMzYifSwiaXNQcmV2aWV3IjpmYWxzZSwiaXNNb2JpbGUiOmZhbHNlLCJpc0JsYWNramFjayI6ZmFsc2UsImlzT2Zmc2l0ZSI6ZmFsc2UsInVzZTFwUmVuZGVyaW5nIjpmYWxzZSwiYXBwZW5kUXVlcnlQYXJhbXMiOiIiLCJpc0V4dGVybmFsTGluayI6ZmFsc2UsImFkTGluayI6Imh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tL3N0b3JlZnJvbnQvcmVmXz1kdm1fcHRtX2FtYV9pbl9hal9jX2FtY19jcF9pbWRiX2FsbF9sb2Q/Y29udGVudFR5cGU9c3Vic2NyaXB0aW9uJmNvbnRlbnRJZD1hbWNwbHVzaW4mYmVuZWZpdElkPWFtY3BsdXNpbiIsImNhc2NhZGluZ0ludGVudCI6bnVsbCwiY2xpY2tUcmFja2VyVXJscyI6WyJodHRwczovL2FheC1ldS5hbWF6b24tYWRzeXN0ZW0uY29tL3gvYy9SSHFrSEZDTW1XUEF5TWNaQVc0YUFXTUFBQUdDdjI5OHJBTUFBQURLQVFCT0wwRWdJQ0FnSUNBZ0lDQWdJQ0JPTDBFZ0lDQWdJQ0FnSUNBZ0lDQ3N0QXRwLyIsbnVsbF0sImlzQW1hem9uQ2xpY2tVcmwiOmZhbHNlLCJpc1ByaW1lTm93Q2xpY2tVcmwiOmZhbHNlLCJpczFwVXJsU2FmZSI6dHJ1ZX0pOwo8L3NjcmlwdD4KCgo8L2JvZHk+CjwvaHRtbD4KPHNjcmlwdCBzcmM9Imh0dHBzOi8vYy5hbWF6b24tYWRzeXN0ZW0uY29tL2Jhby1jc20vaW1kYi13ZWItZGlzcGxheS9jc212NS5qcyI+PC9zY3JpcHQ+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4KIHZhciBhbXpuY3NtID0gYW16bmNzbSB8fCB7fTsgYW16bmNzbS5pbnN0clVSTCA9ICJodHRwczovL2FheC1ldS5hbWF6b24tYWRzeXN0ZW0uY29tL3gvcHgvSkhxa0hGQ01tV1BBeU1jWkFXNGFBV01BQUFHQ3YyOTh4QU1BQUFES0FRQk9MMEVnSUNBZ0lDQWdJQ0FnSUNCT0wwRWdJQ0FnSUNBZ0lDQWdJQ0NzdEF0cC8iOwogaWYodHlwZW9mIGFtem5jc20ucm1SID09PSAiZnVuY3Rpb24iKSB7CiBhbXpuY3NtLnJtUihhbXpuY3NtLmluc3RyVVJMLCB3aW5kb3csIFtdKTsKIH0KPC9zY3JpcHQ+CgogPGRpdiBpZD0iaW5saW5lMjBfd2ViYnVnIiBzdHlsZT0iZGlzcGxheTpub25lOyI+CgoKIDxpbWcgc3JjPSJodHRwczovL2FheC1ldS5hbWF6b24tYWRzeXN0ZW0uY29tL2UvbG9pL2ltcD9iPUpIcWtIRkNNbVdQQXlNY1pBVzRhQVdNQUFBR0N2Mjk4eEFNQUFBREtBUUJPTDBFZ0lDQWdJQ0FnSUNBZ0lDQk9MMEVnSUNBZ0lDQWdJQ0FnSUNDc3RBdHAiIGJvcmRlcj0iMCIgaGVpZ2h0PSIxIiB3aWR0aD0iMSIgYWx0PSIiLz4KCiA8L2Rpdj4KCjxzY3JpcHQgZGVmZXI+c2V0VGltZW91dCggZnVuY3Rpb24oKXtTRkNsaWVudC5nZXREZWJ1Z0luZm8oe2tleTogInVwZGF0ZUFkRGV0YWlscyJ9KTsgfSwwKTs8L3NjcmlwdD48c2NyaXB0IGRlZmVyPnNldFRpbWVvdXQoZnVuY3Rpb24oKXtTRkNsaWVudC5jdXN0b21NZXNzYWdlKCJzZW5kTWV0cmljcyIsSlNPTi5zdHJpbmdpZnkoeyJzbG90IjogImlubGluZTIwIiwgImV2ZW50IjogImZpcmVsb2FkIn0pKTt9LDApOzwvc2NyaXB0Pg==&quot;,&quot;serverSideFetchAd&quot;:&quot;true&quot;,&quot;loadAfter&quot;:&quot;&quot;,&quot;allowedSizes&quot;:[{&quot;width&quot;:&quot;970px&quot;,&quot;height&quot;:&quot;250px&quot;}],&quot;allowedDomains&quot;:[&quot;ia.media-imdb.com&quot;,&quot;d3l3lkinz3f56t.cloudfront.net&quot;,&quot;g-ecx.images-amazon.com&quot;,&quot;z-ecx.images-amazon.com&quot;,&quot;images-na.ssl-images-amazon.com&quot;,&quot;g-ec4.images-amazon.com&quot;,&quot;images-cn.ssl-images-amazon.com&quot;],&quot;iframeClass&quot;:&quot;yesScript iframe_position_relative&quot;,&quot;iframeExtraStyle&quot;:&quot;&quot;,&quot;size&quot;:{&quot;width&quot;:&quot;970px&quot;,&quot;height&quot;:&quot;250px&quot;},&quot;viewabilityStandards&quot;:[],&quot;aaxInstrPixelUrl&quot;:&quot;https://aax-eu.amazon-adsystem.com/x/px/RHqkHFCMmWPAyMcZAW4aAWMAAAGCv298rAMAAADKAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICCstAtp/&quot;,&quot;allowlistedCustomMessageEvents&quot;:[&quot;openPsAdPopover&quot;,&quot;openATCModal&quot;,&quot;setPartner&quot;,&quot;sendMetrics&quot;,&quot;wrap&quot;],&quot;allowlistedQueryParamKeys&quot;:[],&quot;adCreativeMetaData&quot;:{&quot;adCreativeTemplateName&quot;:&quot;IMDb&quot;},&quot;hostDomain&quot;:&quot;https://www.imdb.com&quot;,&quot;queryParams&quot;:{},&quot;adStartTime&quot;:0,&quot;safeFrameSrc&quot;:&quot;https://images-na.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.b9438f1.html&quot;}" id="ape_inline20_iframe" src="https://images-na.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.b9438f1.html" height="250px" width="970px" class="yesScript iframe_position_relative ad_fadein" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true" data-arid="inline20" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation-by-user-activation" style="height: 250px; width: 970px;"></iframe>
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'QT-INNO-LT0822', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SHRUTI~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6dfcdd1cc7c071f453d0046d9be690d7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li role="presentation" class="ipc-metadata-list__item ipc-metadata-list-item--link" data-testid="title-details-releasedate">...</li> is not clickable at point (425, 220). Other element would receive the click: <iframe name="{&quot;slot&quot;:&quot;inline20&quot;,&quot;slotName&quot;:&quot;inline20&quot;,&quot;arid&quot;:&quot;inline20&quot;,&quot;htmlContentEncoded&quot;:&quot;PHN0eWxlPmJvZHl7YmFja2dyb3VuZDp0cmFuc3BhcmVudDt9PC9zdHlsZT48c2NyaXB0IHR5cGU9ImRhdGEtZG91YmxlY2xpY2siIHNyYz0iaHR0cHM6Ly9pYS5tZWRpYS1pbWRiLmNvbS9pbWFnZXMvRy8wMS9tb2JpbGUvYmxhbmtfcGl4ZWwuX1YxMzc4NzUwNzZfLmdpZiI+PC9zY3JpcHQ+IDxzY3JpcHQ+ZG9jdW1lbnQuZGVmYXVsdEFkID0ge2g6MjUwLHc6OTcwfTsgZG9jdW1lbnQuYWQgPSBkb2N1bWVudC5kZWZhdWx0QWQ7IGRvY3VtZW50LmFkU2xvdENvbmZpZyA9IHthbGxvd0ZhZGVJbjogdHJ1ZSwgcmVzaXplSWZyYW1lOiB0cnVlfTs8L3NjcmlwdD4KIDwhZG9jdHlwZSBodG1sPgo8aHRtbCBsYW5nPSJlbiI+CjxoZWFkPgogPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogPHRpdGxlPjwvdGl0bGU+CjwvaGVhZD4KPGJvZHkgc3R5bGU9Im1hcmdpbjowO3Bvc2l0aW9uOmFic29sdXRlO3RvcDowO2xlZnQ6MDtib3R0b206MDtyaWdodDowOyI+CjxzY3JpcHQ+d2luZG93LnQwPStuZXcgRGF0ZSgpOzwvc2NyaXB0Pgo8c2NyaXB0PgogCjwvc2NyaXB0PgoKPGRpdiBpZD0iYWQiIHN0eWxlPSJ3aWR0aDoxMDAlO2hlaWdodDoxMDAlOyI+PGRpdiBjbGFzcz0iY3JlYXRpdmUtY29udGFpbmVyIiBzdHlsZT0icG9zaXRpb246YWJzb2x1dGU7dG9wOjA7cmlnaHQ6MDtib3R0b206MDtsZWZ0OjA7b3ZlcmZsb3c6aGlkZGVuIiBhcmlhLWxhYmVsPSJTcG9uc29yZWQgQWQiIGRhdGEtcmVhY3Ryb290PSIiPjxpbWcgY2xhc3M9ImFkLWJhY2tncm91bmQtaW1hZ2UgbXJjLWJ0ci1jcmVhdGl2ZSIgc3JjPSJodHRwczovL20ubWVkaWEtYW1hem9uLmNvbS9pbWFnZXMvUy9hbC1ldS03MjZmNGQyNi03ZmRiLzAyNGQ4NDhjLTIzZTUtNDg2ZC05NGZhLTJiNzZiNTNkODVhNS5qcGciIHN0eWxlPSJtYXgtd2lkdGg6bm9uZTttYXgtaGVpZ2h0Om5vbmU7d2lkdGg6MTAwJTtoZWlnaHQ6YXV0bzttYXJnaW4tbGVmdDo1MCU7LXdlYmtpdC10cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKTstbW96LXRyYW5zZm9ybTp0cmFuc2xhdGVYKC01MCUpOy1tcy10cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKTstby10cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKTt0cmFuc2Zvcm06dHJhbnNsYXRlWCgtNTAlKSIvPjxhIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt0b3A6MDtyaWdodDowO2JvdHRvbTowO2xlZnQ6MDtjdXJzb3I6cG9pbnRlcjtiYWNrZ3JvdW5kOnRyYW5zcGFyZW50IHVybChkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFFQUFBQUJDQVFBQUFDMUhBd0NBQUFBQzBsRVFWUjQybU5rWUFBQUFBWUFBakNCMEM4QUFBQUFTVVZPUks1Q1lJST0pIHJlcGVhdCAwIDAiIGNsYXNzPSJjbGlja3Rocm91Z2giIGhyZWY9Imh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tL3N0b3JlZnJvbnQvcmVmXz1kdm1fcHRtX2FtYV9pbl9hal9jX2FtY19jcF9pbWRiX2FsbF9sb2Q/Y29udGVudFR5cGU9c3Vic2NyaXB0aW9uJmFtcDtjb250ZW50SWQ9YW1jcGx1c2luJmFtcDtiZW5lZml0SWQ9YW1jcGx1c2luIiB0YXJnZXQ9Il9ibGFuayI+PC9hPjwvZGl2PjwvZGl2Pgo8c2NyaXB0Pgogd2luZG93LiRhZCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhZCcpOwo8L3NjcmlwdD4KCjxzY3JpcHQgY3Jvc3NvcmlnaW49ImFub255bW91cyIgc3JjPSJodHRwczovL20ubWVkaWEtYW1hem9uLmNvbS9pbWFnZXMvSS80MW9XeEV0OXctTC5qcyI+PC9zY3JpcHQ+Cgo8c2NyaXB0Pgogd2luZG93LmltYWdlQ3JlYXRpdmUgPSBDcmVhdGl2ZS5kZWZhdWx0KCRhZCwgeyJjdGEiOnsidHlwZSI6InVybCIsInVybCI6Imh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tL3N0b3JlZnJvbnQvcmVmXz1kdm1fcHRtX2FtYV9pbl9hal9jX2FtY19jcF9pbWRiX2FsbF9sb2Q/Y29udGVudFR5cGU9c3Vic2NyaXB0aW9uJmNvbnRlbnRJZD1hbWNwbHVzaW4mYmVuZWZpdElkPWFtY3BsdXNpbiIsImxpbmtJbiI6ZmFsc2V9LCJiYWNrZ3JvdW5kSW1hZ2UiOnsidXJsIjoiaHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL1MvYWwtZXUtNzI2ZjRkMjYtN2ZkYi8wMjRkODQ4Yy0yM2U1LTQ4NmQtOTRmYS0yYjc2YjUzZDg1YTUuanBnIiwibG93UmVzVXJsIjpudWxsfSwiYmFja2dyb3VuZENvbG9yIjpudWxsLCJhZENob2ljZXNQb3NpdGlvbiI6InRvcHJpZ2h0IiwiaW1wcmVzc2lvblVybHMiOltdLCJhZGRpdGlvbmFsSHRtbCI6IiIsIndpZHRoIjo5NzAsImhlaWdodCI6MjUwLCJpc0xvd1Jlc0Rpc3BsYXkiOmZhbHNlLCJjcmVhdGl2ZUltYWdlRGF0YSI6bnVsbCwibG9jYWxlIjoiSU4iLCJyZWdpb24iOiJldSIsIm1lZGlhQ2VudHJhbFBhdGgiOiJodHRwczovL2ltYWdlcy1ldS5zc2wtaW1hZ2VzLWFtYXpvbi5jb20vaW1hZ2VzL0cvMzEiLCJwcml2YWN5VXJsIjoiaHR0cHM6Ly93d3cuYW1hem9uLmluL2FkcHJlZnMiLCJkZXZpY2VDb250ZXh0Ijp7InVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDQuMC41MTEyLjgxIFNhZmFyaS81MzcuMzYifSwiaXNQcmV2aWV3IjpmYWxzZSwiaXNNb2JpbGUiOmZhbHNlLCJpc0JsYWNramFjayI6ZmFsc2UsImlzT2Zmc2l0ZSI6ZmFsc2UsInVzZTFwUmVuZGVyaW5nIjpmYWxzZSwiYXBwZW5kUXVlcnlQYXJhbXMiOiIiLCJpc0V4dGVybmFsTGluayI6ZmFsc2UsImFkTGluayI6Imh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tL3N0b3JlZnJvbnQvcmVmXz1kdm1fcHRtX2FtYV9pbl9hal9jX2FtY19jcF9pbWRiX2FsbF9sb2Q/Y29udGVudFR5cGU9c3Vic2NyaXB0aW9uJmNvbnRlbnRJZD1hbWNwbHVzaW4mYmVuZWZpdElkPWFtY3BsdXNpbiIsImNhc2NhZGluZ0ludGVudCI6bnVsbCwiY2xpY2tUcmFja2VyVXJscyI6WyJodHRwczovL2FheC1ldS5hbWF6b24tYWRzeXN0ZW0uY29tL3gvYy9SSHFrSEZDTW1XUEF5TWNaQVc0YUFXTUFBQUdDdjI5OHJBTUFBQURLQVFCT0wwRWdJQ0FnSUNBZ0lDQWdJQ0JPTDBFZ0lDQWdJQ0FnSUNBZ0lDQ3N0QXRwLyIsbnVsbF0sImlzQW1hem9uQ2xpY2tVcmwiOmZhbHNlLCJpc1ByaW1lTm93Q2xpY2tVcmwiOmZhbHNlLCJpczFwVXJsU2FmZSI6dHJ1ZX0pOwo8L3NjcmlwdD4KCgo8L2JvZHk+CjwvaHRtbD4KPHNjcmlwdCBzcmM9Imh0dHBzOi8vYy5hbWF6b24tYWRzeXN0ZW0uY29tL2Jhby1jc20vaW1kYi13ZWItZGlzcGxheS9jc212NS5qcyI+PC9zY3JpcHQ+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4KIHZhciBhbXpuY3NtID0gYW16bmNzbSB8fCB7fTsgYW16bmNzbS5pbnN0clVSTCA9ICJodHRwczovL2FheC1ldS5hbWF6b24tYWRzeXN0ZW0uY29tL3gvcHgvSkhxa0hGQ01tV1BBeU1jWkFXNGFBV01BQUFHQ3YyOTh4QU1BQUFES0FRQk9MMEVnSUNBZ0lDQWdJQ0FnSUNCT0wwRWdJQ0FnSUNBZ0lDQWdJQ0NzdEF0cC8iOwogaWYodHlwZW9mIGFtem5jc20ucm1SID09PSAiZnVuY3Rpb24iKSB7CiBhbXpuY3NtLnJtUihhbXpuY3NtLmluc3RyVVJMLCB3aW5kb3csIFtdKTsKIH0KPC9zY3JpcHQ+CgogPGRpdiBpZD0iaW5saW5lMjBfd2ViYnVnIiBzdHlsZT0iZGlzcGxheTpub25lOyI+CgoKIDxpbWcgc3JjPSJodHRwczovL2FheC1ldS5hbWF6b24tYWRzeXN0ZW0uY29tL2UvbG9pL2ltcD9iPUpIcWtIRkNNbVdQQXlNY1pBVzRhQVdNQUFBR0N2Mjk4eEFNQUFBREtBUUJPTDBFZ0lDQWdJQ0FnSUNBZ0lDQk9MMEVnSUNBZ0lDQWdJQ0FnSUNDc3RBdHAiIGJvcmRlcj0iMCIgaGVpZ2h0PSIxIiB3aWR0aD0iMSIgYWx0PSIiLz4KCiA8L2Rpdj4KCjxzY3JpcHQgZGVmZXI+c2V0VGltZW91dCggZnVuY3Rpb24oKXtTRkNsaWVudC5nZXREZWJ1Z0luZm8oe2tleTogInVwZGF0ZUFkRGV0YWlscyJ9KTsgfSwwKTs8L3NjcmlwdD48c2NyaXB0IGRlZmVyPnNldFRpbWVvdXQoZnVuY3Rpb24oKXtTRkNsaWVudC5jdXN0b21NZXNzYWdlKCJzZW5kTWV0cmljcyIsSlNPTi5zdHJpbmdpZnkoeyJzbG90IjogImlubGluZTIwIiwgImV2ZW50IjogImZpcmVsb2FkIn0pKTt9LDApOzwvc2NyaXB0Pg==&quot;,&quot;serverSideFetchAd&quot;:&quot;true&quot;,&quot;loadAfter&quot;:&quot;&quot;,&quot;allowedSizes&quot;:[{&quot;width&quot;:&quot;970px&quot;,&quot;height&quot;:&quot;250px&quot;}],&quot;allowedDomains&quot;:[&quot;ia.media-imdb.com&quot;,&quot;d3l3lkinz3f56t.cloudfront.net&quot;,&quot;g-ecx.images-amazon.com&quot;,&quot;z-ecx.images-amazon.com&quot;,&quot;images-na.ssl-images-amazon.com&quot;,&quot;g-ec4.images-amazon.com&quot;,&quot;images-cn.ssl-images-amazon.com&quot;],&quot;iframeClass&quot;:&quot;yesScript iframe_position_relative&quot;,&quot;iframeExtraStyle&quot;:&quot;&quot;,&quot;size&quot;:{&quot;width&quot;:&quot;970px&quot;,&quot;height&quot;:&quot;250px&quot;},&quot;viewabilityStandards&quot;:[],&quot;aaxInstrPixelUrl&quot;:&quot;https://aax-eu.amazon-adsystem.com/x/px/RHqkHFCMmWPAyMcZAW4aAWMAAAGCv298rAMAAADKAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICCstAtp/&quot;,&quot;allowlistedCustomMessageEvents&quot;:[&quot;openPsAdPopover&quot;,&quot;openATCModal&quot;,&quot;setPartner&quot;,&quot;sendMetrics&quot;,&quot;wrap&quot;],&quot;allowlistedQueryParamKeys&quot;:[],&quot;adCreativeMetaData&quot;:{&quot;adCreativeTemplateName&quot;:&quot;IMDb&quot;},&quot;hostDomain&quot;:&quot;https://www.imdb.com&quot;,&quot;queryParams&quot;:{},&quot;adStartTime&quot;:0,&quot;safeFrameSrc&quot;:&quot;https://images-na.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.b9438f1.html&quot;}" id="ape_inline20_iframe" src="https://images-na.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/sf-1.50.b9438f1.html" height="250px" width="970px" class="yesScript iframe_position_relative ad_fadein" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true" data-arid="inline20" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation-by-user-activation" style="height: 250px; width: 970px;"></iframe>
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'QT-INNO-LT0822', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SHRUTI~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6dfcdd1cc7c071f453d0046d9be690d7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.Pages.IMDBPage.verifyTheReleaseDate(IMDBPage.java:74)
+	at com.TestClasses.IMDBTest.Test03_verifyTheReleaseDate(IMDBTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03_verifyTheReleaseDate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestClasses.IMDBTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="816" started-at="2022-08-21T13:35:33Z" finished-at="2022-08-21T13:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestClasses.IMDBTest -->
+    </test> <!-- IMDB Test -->
+  </suite> <!-- Test Vagrant -->
+</testng-results>
